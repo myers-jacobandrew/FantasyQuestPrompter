@@ -1,0 +1,31 @@
+[
+    {
+        "prompt": "A group of adventurers are tasked with exploring a mysterious cave that is said to be filled with treasure, but also guarded by a powerful dragon.",
+        "keywords": ["adventurers", "exploring", "mysterious", "cave", "treasure", "guarded", "dragon"],
+        "entities": [
+            {"entity": "dragon", "type": "monster"},
+            {"entity": "treasure", "type": "object"},
+            {"entity": "cave", "type": "location"}
+        ]
+    },
+    {
+        "prompt": "The kingdom is in peril as an ancient evil has awakened and threatens to destroy everything. The players must journey to a nearby temple to retrieve a powerful artifact that can save the kingdom.",
+        "keywords": ["kingdom", "peril", "ancient", "evil", "awakened", "journey", "temple", "powerful", "artifact", "save"],
+        "entities": [
+            {"entity": "kingdom", "type": "location"},
+            {"entity": "evil", "type": "monster"},
+            {"entity": "temple", "type": "location"},
+            {"entity": "artifact", "type": "object"}
+        ]
+    },
+    {
+        "prompt": "A small town is plagued by a series of gruesome murders that the local authorities are unable to solve. The players must investigate the crimes and discover the true culprit before it's too late.",
+        "keywords": ["small", "town", "plagued", "gruesome", "murders", "local", "authorities", "unable", "solve", "investigate", "crimes", "discover", "true", "culprit", "too", "late"],
+        "entities": [
+            {"entity": "town", "type": "location"},
+            {"entity": "authorities", "type": "organization"},
+            {"entity": "murders", "type": "event"},
+            {"entity": "culprit", "type": "character"}
+        ]
+    }
+]
